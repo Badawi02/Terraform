@@ -1,5 +1,5 @@
 output "public_ec2-ip" {
-  value       = aws_instance.instance.public_ip 
+  value   = aws_instance.instance.public_ip 
   
 }
 output "public_ec2-private-ip" {
